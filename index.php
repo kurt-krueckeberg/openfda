@@ -377,9 +377,9 @@ and open the template in the editor.
    </div>
    </div>
    <div class="form-group">
-   <label for="druggenericname" class="col-md-5 control-label">Generic Name: <br><small> (ex: acetaminophen)</small></label>
+   <label for="druggenericname" class="col-md-5 control-label">Generic Name: <br><small> (ex: LASIK)</small></label>
    <div class="col-md-7">
-   <input type="text" class="form-control" id="druggenericname" name="druggenericname" value="">
+   <input type="text" class="form-control" id="druggenericname" name="druggenericname" value="LASIK">
    </div>
    </div>
    <div class="form-group">
@@ -395,55 +395,11 @@ and open the template in the editor.
    </div>
    </div>
    <div class="form-group">
-   <label class="col-md-5 control-label">Seriousness:</label>
-   <div class="col-md-7">
-   <div class="checkbox">
-   <label>
-   <input type="checkbox" name="seriousnessdeath" id="seriousnessdeath" value="1">Death
-   </label>
-   </div>
-   <div class="checkbox">
-   <label>
-   <input type="checkbox" name="seriousnesshospitalization" id="seriousnesshospitalization" value="1">Hospitalization
-   </label>
-   </div>
-   <div class="checkbox">
-   <label>
-   <input type="checkbox" name="seriousnesscongenitalanomali" id="seriousnesscongenitalanomali" value="1">Congenital Anomali
-   </label>
-   </div>
-   <div class="checkbox">
-   <label>
-   <input type="checkbox" name="seriousnessdisabling" id="seriousnessdisabling" value="1">Disabling
-   </label>
-   </div>
-   <div class="checkbox">
-   <label>
-   <input type="checkbox" name="seriousnesslifethreatening" id="seriousnesslifethreatening" value="1">Life Threatening
-   </label>
-   </div>
-   </div>
-   </div>
-   <div class="form-group">
-   <label for="drugclass" class="col-md-5 control-label">Pharmacologic Class:</label>
-   <div class="col-md-7">
-   <input type="text" class="form-control" id="drugclass" name="drugclass" value="">
-   </div>
-   </div>
-   <div class="form-group">
-   <label for="drugindication" class="col-md-5 control-label">Drug Indication: <br><small> (ex: hypertension)</small></label>
-   <div class="col-md-7">
-   <input type="text" id="drugindication" class="form-control" name="drugindication" value="">
-   </div>
-   </div>
-   <div class="form-group">
    <label for="indsubmit" class="col-md-5 control-label">Individual Submitting:</label>
    <div class="col-md-7">
    <select class="form-control" id="indsubmit" name="indsubmit">
    <option value=""> </option>
    <option value="1">Physician</option>
-   <option value="2">Pharmacist</option>
-   <option value="3">Other health professional</option>
    <option value="4">Lawyer</option>
    <option value="5">Consumer or non-health professional</option>
    </select>
